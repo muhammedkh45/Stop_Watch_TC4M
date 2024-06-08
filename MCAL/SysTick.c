@@ -6,6 +6,8 @@
 #include "stdint.h"
 #include "tm4c123gh6pm.h"
 
+/*TM4C123GH6PM using maximum frequency 80MHz*/
+
 void SysTick_Init(long delay){
 NVIC_ST_CTRL_R = 0;
 NVIC_ST_RELOAD_R = delay-1;
@@ -17,6 +19,6 @@ while((NVIC_ST_CTRL_R&0x00001000)==0);
 void SysTick_Delay_1ms(int delay) {
 int i=0;
 	for(;i<delay;++i){
-	SysTick_Init(16000);
+	SysTick_Init(80000);
 	}
 }

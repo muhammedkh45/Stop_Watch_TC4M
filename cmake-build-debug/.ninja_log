@@ -1,0 +1,8 @@
+# ninja log v5
+18	348	7391497906246020	CMakeFiles/7_segment.dir/Application.c.obj	725970d6300e74b7
+6	388	7391497907036947	CMakeFiles/7_segment.dir/MCAL/DIO.c.obj	5b88c1134fbb949a
+38	395	7391497907109574	CMakeFiles/7_segment.dir/MCAL/SysTick.c.obj	d9620b3382cb28e7
+28	399	7391497907202098	CMakeFiles/7_segment.dir/ECUAL/Seven_Segment.c.obj	814cebaa9ce6d479
+174	914	7395465512640503	CMakeFiles/7_segment.dir/MCAL/DIO.c.obj	5b88c1134fbb949a
+198	915	7395465512640503	CMakeFiles/7_segment.dir/ECUAL/Seven_Segment.c.obj	814cebaa9ce6d479
+186	917	7395465512640503	CMakeFiles/7_segment.dir/Application.c.obj	725970d6300e74b7

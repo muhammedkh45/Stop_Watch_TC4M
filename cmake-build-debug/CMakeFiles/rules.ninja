@@ -42,7 +42,7 @@ rule CUSTOM_COMMAND
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = "C:\Program Files\JetBrains\CLion 2024.1\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -S"G:\Embeded diploma\project\7 segment" -B"G:\Embeded diploma\project\7 segment\cmake-build-debug"
+  command = "C:\Program Files\JetBrains\CLion 2024.1\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -S"G:\Embeded diploma\project\7 segment\Stop_Watch_TC4M" -B"G:\Embeded diploma\project\7 segment\Stop_Watch_TC4M\cmake-build-debug"
   description = Re-running CMake...
   generator = 1
 
